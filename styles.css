@@ -96,7 +96,7 @@ header {
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 1fr;
     background-color: #dbeafe;
-    padding-top: 30px;
+    padding-top: 5px;
     grid-column: 2 / 3;
     row-gap: 12px;
     padding-left: 30px;
