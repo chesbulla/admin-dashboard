@@ -51,6 +51,7 @@ body {
     align-items: center;
 }
 
+
 .nav-item img{
     height: 1.5rem;
     width: 1.5rem;
@@ -64,12 +65,17 @@ body {
     font-size: 3rem;
 }
 
-.nav-item label {
+.nav-item a {
     justify-self: start;
     color: #eff6ff;
     font-family: "roboto";
     font-weight: bold;
     font-size: 1.5rem;
+    text-decoration: none; 
+}
+
+a:hover {
+    color: #bfdbfe;
 }
 
 .nav-top {
@@ -84,6 +90,65 @@ body {
     align-content: end;
     
 }
+
+header {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: #dbeafe;
+    padding-top: 30px;
+    grid-column: 2 / 3;
+    row-gap: 12px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.searchbar {
+    display: grid;
+    grid-template-columns: 1fr 13fr;
+    column-gap: 2px;
+    
+}
+
+.searchbar img {
+    align-self: center;
+    justify-self: center;
+    height: 2rem;
+}
+
+.searchbar input {
+    border-radius: 15px;
+    background-color: #eff6ff;
+    height: 2rem;
+    align-self: center;
+}
+
+.user-profile img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.user-profile {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    display: grid;
+    font-family: 'roboto';
+    font-weight: bold;
+    color: #172554;
+    grid-template-columns: 1fr 10fr;
+    justify-content: center;
+
+}
+
+.user-profile p {
+    align-self: center;
+}
+
+.user-profile label {
+    font-size: 2rem;
+}
+
+
 
 
 
