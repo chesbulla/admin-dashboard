@@ -6,6 +6,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 
 }
@@ -196,11 +197,48 @@ header .bottom-right button {
     height: 2rem;
     width: auto;
     border: none;
-    
+}
 
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 100vh;
+    padding-bottom: 16px;
+    background-color: #eff6ff;
+    grid-row: 2
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px repeat(auto-fit, minmax(150px,10fr));
+    gap: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
 
 }
 
+.cards > label {
+    grid-column: 1 / span 2;
+    font-size: 2rem;
+    font-family: roboto;
+    font-weight: bold;
+    color: #172554;
+}
+
+
+.card {
+    background-color: #dbeafe;
+    color: #1e3a8a;
+    font-family: "Roboto";
+    height: 100%;
+    padding: 16px;
+}
+
+.card label {
+    font-weight: bold;
+    font-size: larger;
+}
 
 
 
