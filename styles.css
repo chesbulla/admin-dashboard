@@ -148,6 +148,58 @@ header {
     font-size: 2rem;
 }
 
+header .top-right img {
+    height: 2.5rem;
+    width: 2.5rem;
+    align-self: center;
+}
+
+
+header .top-right #profile-pic{
+    height: 3rem;
+    width: 3rem;
+}
+header .top-right label {
+    font-family: 'roboto';
+    font-weight: bold;
+    font-size: 2rem;
+    align-self: center;
+    padding-left: 10px;
+}
+
+header .top-right {
+    grid-column: 2 / span 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    justify-self: center;
+    align-self: center;
+}
+
+header .bottom-right {
+    display: grid;
+    grid-column: 2 / span 1;
+    grid-row: 2;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding-right: 50px;
+    align-content: center;
+
+}
+
+header .bottom-right button {
+    background-color: #93c5fd;
+    font-family: "roboto";
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 15px;
+    height: 2rem;
+    width: auto;
+    border: none;
+    
+
+
+}
 
 
 
